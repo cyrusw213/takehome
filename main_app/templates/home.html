@@ -9,5 +9,12 @@
   </head>
   <body>
     <h1>Use this form to add new users to the klaviyo sms & email subscription list</h1>
+    <form method="POST">{% csrf_token%}
+        <input type="text" placeholder= "enter name" name ="name" />
+        <input type="text" placeholder="enter email" name ="email" />
+        <input type="text" placeholder="enter phone number" name ="phone_number" />
+        <button type="submit">ENTER</button>
+    </form>
+    <h1>{{res}}</h1>
   </body>
 </html>

@@ -12,7 +12,11 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 # for secret key
+import os
+
 from decouple import config
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+API_KEY = config('API_KEY')
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 

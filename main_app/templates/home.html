@@ -8,13 +8,13 @@
     <title>Klaviyo SMS Subscription Feeder</title>
   </head>
   <body>
-    <h1>Use this form to add new users to the klaviyo sms & email subscription list</h1>
+    <h1>Use this form to subscribe new users to the klaviyo "SMS Subscribers" list</h1>
     <form method="POST">{% csrf_token%}
-        <input type="text" placeholder= "enter name" name ="name" />
-        <input type="text" placeholder="enter email" name ="email" />
-        <input type="text" placeholder="enter phone number" name ="phone_number" />
+        <input type="text" placeholder= "name" name ="name" />
+        <input type="text" placeholder="email *REQUIRED*" name ="email" />
+        <input type="text" placeholder="phone number *REQUIRED*" name ="phone_number" />
         <button type="submit">ENTER</button>
     </form>
-    <h1>{{res}}</h1>
-  </body>
-</html>
+    <p>Feedback: {{res}}</p>
+    <a href="/list">Click here to verify that the correct lists is associated with this form and see when it was last updated</a>
+    </html>

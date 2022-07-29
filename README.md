@@ -1,4 +1,4 @@
-#Klaviyo SMS Subscription Feeder
+# SMS Subscription Feeder
 
-#Description
+# Description
 

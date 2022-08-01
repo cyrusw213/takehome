@@ -5,3 +5,4 @@ This solution is designed to enable users to add profiles to their Klaviyo sms s
 
 ### Technology Used
 Python, Django, HTML, Klaviyo APIs
+

@@ -1,12 +1,4 @@
-asgiref==3.5.0
-certifi==2021.10.8
-charset-normalizer==2.0.12
-Django==4.0.2
-idna==3.3
-klaviyo-sdk==1.0.6.20220329
-python-dateutil==2.8.2
-requests==2.27.1
-six==1.16.0
+asgiref==3.5.2
+decouple==0.0.7
+Django==4.0.6
 sqlparse==0.4.2
-tenacity==8.0.1
-urllib3==1.26.8

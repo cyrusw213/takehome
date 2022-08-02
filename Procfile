@@ -1,2 +1,2 @@
 
-web: gunicorn gtakehomeassessment.wsgi
+web: gunicorn takehomeassessment.wsgi

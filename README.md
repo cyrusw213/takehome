@@ -8,7 +8,7 @@ Python, Django, HTML, Klaviyo APIs
 
 ### How to run locally
 1. Clone down this repository to your computer and go to the new directory in your terminal
-2. Create a django virtual environment and run (this video is helpful https://www.youtube.com/watch?v=PS903MeNDJk)
+2. Create a django virtual environment and run it (this [video](https://www.youtube.com/watch?v=PS903MeNDJk) is helpful)
     - While in the terminal run "python3 -m venv django-env" 
     - run "cd django-env"
     - Then run "source bin/activate" to activate the terminal
@@ -17,6 +17,8 @@ Python, Django, HTML, Klaviyo APIs
 4. install requirements (run "pip install -r requirements.txt")
 5. Create a file named .env (touch .env)
  add the following to your .env file:
-    SECRET_KEY= create your own secret key (recommend this site https://miniwebtool.com/django-secret-key-generator/)
-    API_KEY= generate a private api key from klaviyo and add it here
-    LIST_ID = this will be the list id for whichever Klaviyo list you want to attach to the solution
+    - SECRET_KEY= create your own secret key (recommend this [site](https://miniwebtool.com/django-secret-key-generator/))
+    - API_KEY= generate a private api key from klaviyo and add it here
+    - LIST_ID = this will be the list id for whichever Klaviyo list you want to attach to the solution
+6. from the terminal where your virtual environment is running run the following command "python manage.py runserver"
+7. You should be able to now add users to your list from your localhost!
